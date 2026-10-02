@@ -50,7 +50,7 @@ object Visualizer:
       filePrefix,
       mutable.Map.from(start),
       1200,
-      700,
+      675,
       electricalWeightsMin,
       electricalWeightsMax,
       chemicalWeightsMin,

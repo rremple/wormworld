@@ -19,7 +19,7 @@ In nematodes, as in all animals, each neuron is like a tiny rechargeable battery
 
 This all seems pretty straightforward, since it is about a billionth the complexity of a human nervous system. But even at this miniscule scale, it is still pretty complicated. The full connectome looks like this:
 
-![](doc/wormworld-layout-full.svg)
+![](./doc/wormworld-layout-full.svg)
 
 In the diagram above:
 
@@ -131,17 +131,19 @@ In the ventral nerve cord, arranged anatomically from head to tail. Octaves 4-6 
 
 Another way to visualize these voiced neurons is as the active subnetwork of the full network. In the below graphic, only the voiced neurons are shown with their connections to the broader network flowing off screen. Nodes highlighted in lighter to darker shades of blue represent the strings by increasing octaves. Nodes highlighted in lighter to darker shades of green represent the piano by increasing octaves. As I mentioned earlier, the network is highly recurrent. So not all locomotion neurons are on the right side of the page, since they are also the source for many other neurons. That’s how the reverberation is sustained.
 
-![](doc/wormworld-layout-voiced.svg)
+![](./doc/wormworld-layout-voiced.svg)
 
 ## The Result
 
 The resulting ambient, pseudo-rhythmic melodies are reminiscent of a Brian Eno or Phillip Glass composition. I’m not accusing those guys of being worms, but I think they would be jealous of what a little nematode can do.
+* [Audio only (higher quality)](https://drive.google.com/file/d/1Bj0iIqx0x_S515AwHzBNjSL_vsO2BlPH/view?usp=drive_link)
+* [Simulation video (with lower quality audio)](https://drive.google.com/file/d/14a_qOd0Hz6pOvUHfFB96E_DYuSsiNIje/view?usp=sharing)
 
 Below is a listening guide – the chronological roadmap of this neuronal performance:
 
-* **0:00 \- The stimulus begins.** We drop a virtual chemical scent into the simulation. Initially there is just silence. (The initial thud is from all the neurons initializing at \-45 mV and quickly settling down to their \-50 mV resting state.)   
-*  **0:10 – The message is received.** The sensory bass begins to swell as the stimulus reaches its peak. The sensory neurons and associated nerve ring processors begin to react to the stimulus. This reaction continues to grow even as the stimulus fades.  
-* **0:22 \- The muscles start to twitch.** At this point the stimulus is all but gone, but the real physical reaction is just starting. The neurons responsible for locomotion begin to carry the message down the nerve cord. Some neurons are yelling “move forward” while about twice as many are yelling “back up” – it is a tug-of-war within the organism for which movement will dominate. These reverberating waves of instructions continue about every six seconds, recursively reactivating neurons deep in the nerve ring, keeping the string section engaged.  
+* **0:00 - The stimulus begins.** We drop a virtual chemical scent into the simulation. Initially there is just silence. (The initial thud is from all the neurons initializing at \-45 mV and quickly settling down to their \-50 mV resting state.)   
+* **0:10 – The message is received.** The sensory bass begins to swell as the stimulus reaches its peak. The sensory neurons and associated nerve ring processors begin to react to the stimulus. This reaction continues to grow even as the stimulus fades.  
+* **0:22 - The muscles start to twitch.** At this point the stimulus is all but gone, but the real physical reaction is just starting. The neurons responsible for locomotion begin to carry the message down the nerve cord. Some neurons are yelling “move forward” while about twice as many are yelling “back up” – it is a tug-of-war within the organism for which movement will dominate. These reverberating waves of instructions continue about every six seconds, recursively reactivating neurons deep in the nerve ring, keeping the string section engaged.  
 * **5:00 – The resonance weakens.** Key neurons in the nerve ring are winding down as their energy leaks away and they can no longer pass the threshold for creating action potentials. The memory of the stimulus is fading.  
 * **5:20 – The last locomotive signal is sent.** Without the energy of the nerve ring, the piano hits its final note.   
 * **5:30 – Return to resting.** All the neurons have leaked away their extra energy and have returned to their resting state. The performance has ended. The worm takes a bow.
