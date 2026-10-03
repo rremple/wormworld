@@ -88,13 +88,18 @@ Processors in the nerve ring. Octave 2 strings.
 
 Grouped by direction. Octave 3 strings.
 
+#### _Backward Drivers (in the nerve ring)_
+
 | Neuron(s) | C | Eb | F | G | Bb |
 | --- | --- | --- | --- | --- | --- |
-| **Backward Drivers** *(in the nerve ring)* |  |  |  |  |  |
 | AVAL / AVAR | 3 |  |  |  |  |
 | AVDL / AVDR |  | 3 |  |  |  |
 | AVEL / AVER |  |  | 3 |  |  |
-| **Forward Drivers** *(AVB in the nerve ring, PVC in the tail)* |  |  |  |  |  |
+
+#### _Forward Drivers (AVB in the nerve ring, PVC in the tail)_
+
+| Neuron(s) | C | Eb | F | G | Bb |
+| --- | --- | --- | --- | --- | --- |
 | AVBL / AVBR |  |  |  | 3 |  |
 | PVCL / PVCR |  |  |  |  | 3 |
 
@@ -131,7 +136,7 @@ In the ventral nerve cord, arranged anatomically from head to tail. Octaves 4-6 
 
 Another way to visualize these voiced neurons is as the active subnetwork of the full network. In the below graphic, only the voiced neurons are shown with their connections to the broader network flowing off screen. Nodes highlighted in lighter to darker shades of blue represent the strings by increasing octaves. Nodes highlighted in lighter to darker shades of green represent the piano by increasing octaves. As I mentioned earlier, the network is highly recurrent. So not all locomotion neurons are on the right side of the page, since they are also the source for many other neurons. That’s how the reverberation is sustained.
 
-![](./doc/wormworld-layout-voiced.svg)
+![](./doc/wormworld-layout-voiced.png)
 
 ## The Result
 
